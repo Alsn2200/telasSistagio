@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login_cad.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="logo"><img src="foguete-logo.png" width="90x" alt=""></div> <!-- logo-->
+            <div class="menu">
+                <a href="#"> Home</a>
+                <a href="#"> Vagas</a>
+                <a href="#"> Contatos </a>
+            </div><!--menu-->
+        </div> <!--div nav bar-->
+    </header>
+
+    <div class="container">
+        <div class="botao_forms">
+            <div class="btnColor"></div>
+            <button id="btnSignin"> Sign in</button> <!--entrar-->
+            <button id="btnSignup"> Sign up</button> <!--inscreva-se-->
+        </div>
+
+        <form id="signin">
+            <input type="text" placeholder="CPF/CNPJ" required />
+            <input type="password" placeholder="senha" required />
+            <div class="recuperar_senha">
+                <input type="checkbox">
+                <span>Esqueceu sua senha? </span>
+            </div>
+            <button type="submit">Sign in </button>
+        </form> <!--forms entrar-->
+    
+        <form id="signup">
+            <input type="text" placeholder="CPF/CNPJ" required />
+            <input type="password" placeholder="insira sua senha" required />
+            <input type="password" placeholder="confirme sua senha" >
+            <div class="recuperar_senha">
+                <input type="checkbox">
+                <span>termos </span>
+            </div>
+            <button type="submit">Sign up </button>
+        </form> <!--forms inscrição-->
+    
+
+    </div>
+
+    
+
+
+   
+
+    <script src="/JS/index.js"></script>
+</body>
+
+</html>
